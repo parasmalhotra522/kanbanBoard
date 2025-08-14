@@ -18,7 +18,7 @@ This project allows you to manage tasks visually by organizing them into customi
   - Team member avatars
   - Comment and file counters
 - **Smooth Animations** when dragging and dropping.
-- **Persistent State (optional)** — can be configured to save to `localStorage` or API.
+- **Persistent State** — using Redux for persisting the state of the application.
 
 ---
 
@@ -38,7 +38,7 @@ This project allows you to manage tasks visually by organizing them into customi
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/kanban-board.git
+git clone https://github.com/parasmalhotra522/kanban-board.git
 
 # Navigate to project directory
 cd kanban-board
