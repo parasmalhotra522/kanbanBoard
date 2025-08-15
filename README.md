@@ -1,24 +1,39 @@
 # 🗂️ Kanban Board
 
-A modern, responsive **Kanban Board** built with **Next.js**, **TypeScript**, **TailwindCSS**, **Redux Toolkit**, and **dnd-kit** for smooth drag-and-drop interactions.
-
-This project allows you to manage tasks visually by organizing them into customizable columns such as **To Do**, **In Progress**, and **Done**. Cards can be reordered within a column or moved across columns — all with beautiful animations and mobile responsiveness.
+A modern, responsive Kanban Board built with **Next.js**, **TypeScript**, **TailwindCSS**, **Redux Toolkit**, and **dnd-kit** for smooth drag-and-drop interactions.
+This app allows you to visually manage tasks by organizing them into columns such as **To Do**, **In Progress**, and **Done**.
+Cards can be reordered within a column or moved across columns — all with smooth animations and mobile-friendly layouts.
 
 ---
 
-## 🚀 Features
+## Screenshots
 
-- **Drag & Drop** with `@dnd-kit/core` for moving cards between columns or reordering within the same column.
-- **Redux Toolkit** for state management.
-- **Responsive Design** using TailwindCSS — works on desktop and mobile.
-- **Customizable Columns** — define any number of columns in `kanbanSlice`.
-- **Card Details** including:
-  - Priority tags (Low, Medium, High, Completed)
-  - Optional description
-  - Team member avatars
-  - Comment and file counters
-- **Smooth Animations** when dragging and dropping.
-- **Persistent State** — using Redux for persisting the state of the application.
+| Home Screen | Drag & Drop Section |
+|------------|-------------------|
+| ![Home Screen](./public/images/HomeScreen.png) | ![Drag & Drop Feature](./public/images/Drag&DropFeature.png) |
+
+
+---
+
+## Features
+Drag & Drop with **@dnd-kit/core**
+Move cards between columns or reorder within the same column.
+**Redux Toolkit** for predictable state management.
+**Responsive UI** using TailwindCSS (desktop & mobile ready).
+**Customizable Columns** — easily adjust in kanbanSlice.
+**Card Details**:
+Priority tags: Low, Medium, High, Completed
+Optional description
+Team member avatars
+Comment & file counters
+**Smooth Animations** when dragging & dropping.
+**Persistent State** (using Redux for persisting the state of the application.).
+
+
+
+## 🚀 Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
 ---
 
@@ -34,17 +49,24 @@ This project allows you to manage tasks visually by organizing them into customi
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/parasmalhotra522/kanban-board.git
 
-# Navigate to project directory
+# 1️⃣ Clone the repository
+git clone https://github.com/parasmalhotra522/kanbanBoard.git
+
+# 2️⃣ Navigate into the folder
 cd kanban-board
 
-# Install dependencies
+# 3️⃣ Install dependencies
 npm install
-
 # or
 yarn install
+
+# 4️⃣ Start the development server
+npm run dev
+# or
+yarn dev
+
+
