@@ -161,7 +161,7 @@ const SidebarNavItem = ({
     <button
       type="button"
       onClick={onClick}
-      className="flex items-center gap-3 text-zinc-500 hover:text-purple-600 cursor-pointer px-3 py-2 rounded-lg transition-colors duration-150 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-purple-500"
+      className="flex items-center gap-3 text-zinc-500 hover:text-purple-600 cursor-pointer px-3 py-2 rounded-lg transition-colors duration-150 hover:bg-gray-50 focus:outline-none"
     >
       <span
         className="flex-shrink-0 inline-flex items-center justify-center"
